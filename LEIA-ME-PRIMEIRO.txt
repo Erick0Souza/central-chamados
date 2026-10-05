@@ -1,0 +1,23 @@
+CENTRAL DE CHAMADOS — INICIO RAPIDO
+
+1. Extraia o ZIP para uma pasta nova.
+2. Abra a pasta central-chamados no VS Code.
+3. Abra o terminal nessa pasta e execute, um por vez:
+
+   composer install
+   php instalar.php
+   php artisan serve
+
+4. Acesse http://127.0.0.1:8000
+
+Administrador: admin@central.test
+Senha: Central@123
+
+Tecnico: tecnico@central.test
+Cliente: cliente@central.test
+A senha de demonstracao e a mesma nas tres contas.
+
+Voce tambem pode usar instalar.bat e, depois, iniciar.bat.
+Nao e necessario npm install ou configurar MySQL para o primeiro teste.
+Nao crie outro projeto Laravel sobre esta pasta.
+O README.md tem as instrucoes completas e o mapa dos arquivos.
